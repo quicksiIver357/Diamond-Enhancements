@@ -14,14 +14,14 @@
             "models": [
               {
                 "type": "minecraft:model",
-                "model": "minecraft:item/diamond_bundle_open_back"
+                "model": "diamond_enhancements:item/diamond_bundle_open_back"
               },
               {
                 "type": "minecraft:bundle/selected_item"
               },
               {
                 "type": "minecraft:model",
-                "model": "minecraft:item/diamond_bundle_open_front"
+                "model": "diamond_enhancements:item/diamond_bundle_open_front"
               }
             ]
           },

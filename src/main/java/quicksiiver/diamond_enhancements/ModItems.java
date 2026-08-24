@@ -39,6 +39,6 @@ public class ModItems {
         // Still, this method is useful for adding code to add items to creative menu and such.
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.COMBAT).register((creativeTab) -> creativeTab.insertAfter(Items.TOTEM_OF_UNDYING, ModItems.DIAMOND_TOTEM));
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register((creativeTab) -> creativeTab.insertAfter(Items.NETHER_STAR, ModItems.STARDUST));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register((creativeTab) -> creativeTab.insertAfter(Items.BUNDLE, ModItems.DIAMOND_BUNDLE));
     }
-
 }
