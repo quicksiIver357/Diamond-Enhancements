@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "quicksiiver.diamond_enhancements.client.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "ClientTooltipComponentMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

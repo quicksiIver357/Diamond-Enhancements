@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "oDo",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:leather",
+    "o": "minecraft:slime_ball",
+    "D": "minecraft:diamond"
+  },
+  "result": {
+    "id": "minecraft:saddle"
+  }
+}

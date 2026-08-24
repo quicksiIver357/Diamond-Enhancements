@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#.#",
+    "###",
+    " # "
+  ],
+  "key": {
+    "#": "minecraft:diamond",
+    ".": "diamond_enhancements:stardust"
+  },
+  "result": {
+    "id": "diamond_enhancements:diamond_totem"
+  }
+}
