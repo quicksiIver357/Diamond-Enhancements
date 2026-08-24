@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#o#",
+    "#B#",
+    "###"
+  ],
+  "key": {
+    "#": "#minecraft:repairs_leather_armor",
+    "o": "minecraft:diamond",
+    "B": "#minecraft:bundles"
+  },
+  "result": {
+    "id": "diamond_enhancements:diamond_bundle"
+  }
+}

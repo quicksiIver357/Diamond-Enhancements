@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "###",
+    " # "
+  ],
+  "key": {
+    "#": "diamond_enhancements:stardust"
+  },
+  "result": {
+    "id": "minecraft:nether_star"
+  }
+}

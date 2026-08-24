@@ -7,6 +7,7 @@
     "#": "minecraft:nether_star"
   },
   "result": {
-    "id": "diamond_enhancements:stardust"
+    "id": "diamond_enhancements:stardust",
+    "count" : 5
   }
 }
