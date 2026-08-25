@@ -36,6 +36,11 @@ public class ModItems {
 
     // items registered
     public static final Item DIAMOND_TOTEM = register(ModItemIds.DIAMOND_TOTEM, Item::new, new Item.Properties());
+    public static final Item SPEED_TOTEM = register(ModItemIds.SPEED_TOTEM, Item::new, new Item.Properties());
+    public static final Item HASTE_TOTEM = register(ModItemIds.HASTE_TOTEM, Item::new, new Item.Properties());
+    public static final Item RESISTANCE_TOTEM = register(ModItemIds.RESISTANCE_TOTEM, Item::new, new Item.Properties());
+    public static final Item STRENGTH_TOTEM = register(ModItemIds.STRENGTH_TOTEM, Item::new, new Item.Properties());
+    public static final Item JUMP_BOOST_TOTEM = register(ModItemIds.JUMP_BOOST_TOTEM, Item::new, new Item.Properties());
     public static final Item STARDUST = register(ModItemIds.STARDUST, Item::new, new Item.Properties());
     public static final Item DIAMOND_BUNDLE = register(ModItemIds.DIAMOND_BUNDLE, DiamondBundle::new, new Item.Properties().component(DataComponents.BUNDLE_CONTENTS, BundleContents.EMPTY));
     public static final Item DIAMOND_APPLE = register(ModItemIds.DIAMOND_APPLE, Item::new, new Item.Properties().food(DIAMOND_APPLE_FOOD_COMPONENT, DIAMOND_APPLE_CONSUMABLE_COMPONENT));
@@ -64,6 +69,11 @@ public class ModItems {
 
         // creative menu code
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.COMBAT).register((creativeTab) -> creativeTab.insertAfter(Items.TOTEM_OF_UNDYING, ModItems.DIAMOND_TOTEM));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.COMBAT).register((creativeTab) -> creativeTab.insertAfter(ModItems.DIAMOND_TOTEM, ModItems.SPEED_TOTEM));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.COMBAT).register((creativeTab) -> creativeTab.insertAfter(ModItems.SPEED_TOTEM, ModItems.HASTE_TOTEM));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.COMBAT).register((creativeTab) -> creativeTab.insertAfter(ModItems.HASTE_TOTEM, ModItems.RESISTANCE_TOTEM));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.COMBAT).register((creativeTab) -> creativeTab.insertAfter(ModItems.RESISTANCE_TOTEM, ModItems.JUMP_BOOST_TOTEM));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.COMBAT).register((creativeTab) -> creativeTab.insertAfter(ModItems.JUMP_BOOST_TOTEM, ModItems.STRENGTH_TOTEM));
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register((creativeTab) -> creativeTab.insertAfter(Items.NETHER_STAR, ModItems.STARDUST));
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register((creativeTab) -> creativeTab.insertAfter(Items.BUNDLE, ModItems.DIAMOND_BUNDLE));
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FOOD_AND_DRINKS).register((creativeTab) -> creativeTab.insertAfter(Items.GOLDEN_APPLE, ModItems.DIAMOND_APPLE));

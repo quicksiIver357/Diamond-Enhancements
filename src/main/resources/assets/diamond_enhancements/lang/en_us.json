@@ -4,5 +4,10 @@
     "item.diamond_enhancements.diamond_bundle" : "Diamond Bundle",
     "item.diamond_enhancements.diamond_apple" : "Diamond Apple",
     "item.diamond_enhancements.diamond_sheet" : "Diamond Sheet",
-    "block.diamond_enhancements.diamond_pressure_plate" : "Diamond Pressure Plate"
+    "block.diamond_enhancements.diamond_pressure_plate" : "Diamond Pressure Plate",
+    "item.diamond_enhancements.haste_totem": "Haste Totem",
+    "item.diamond_enhancements.jump_boost_totem": "Jump Boost Totem",
+    "item.diamond_enhancements.resistance_totem": "Resistance Totem",
+    "item.diamond_enhancements.speed_totem": "Speed Totem",
+    "item.diamond_enhancements.strength_totem": "Strength Totem"
 }
