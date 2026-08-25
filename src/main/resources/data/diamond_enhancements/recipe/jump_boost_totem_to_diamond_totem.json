@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "diamond_enhancements:jump_boost_totem"
+  ],
+  "result": {
+    "id": "diamond_enhancements:diamond_totem",
+    "count": 1
+  }
+}
