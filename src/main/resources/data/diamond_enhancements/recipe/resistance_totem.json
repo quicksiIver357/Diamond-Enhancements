@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T ",
+    "SDS",
+    "III"
+  ],
+  "key": {
+    "T": "minecraft:turtle_scute",
+    "S": "diamond_enhancements:stardust",
+    "D": "diamond_enhancements:diamond_totem",
+    "I": "#minecraft:beacon_payment"
+  },
+  "result": {
+    "id": "diamond_enhancements:resistance_totem",
+    "count": 1
+  }
+}

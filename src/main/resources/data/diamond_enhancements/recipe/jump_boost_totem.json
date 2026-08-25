@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "SDS",
+    "III"
+  ],
+  "key": {
+    "R": "minecraft:rabbit_foot",
+    "S": "diamond_enhancements:stardust",
+    "D": "diamond_enhancements:diamond_totem",
+    "I": "#minecraft:beacon_payment"
+  },
+  "result": {
+    "id": "diamond_enhancements:jump_boost_totem",
+    "count": 1
+  }
+}

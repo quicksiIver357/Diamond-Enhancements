@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SDS",
+    "III"
+  ],
+  "key": {
+    "S": "minecraft:sugar",
+    "D": "diamond_enhancements:diamond_totem",
+    "I": "#minecraft:beacon_payment"
+  },
+  "result": {
+    "id": "diamond_enhancements:speed_totem",
+    "count": 1
+  }
+}

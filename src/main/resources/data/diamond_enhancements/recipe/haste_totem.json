@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "SDS",
+    "III"
+  ],
+  "key": {
+    "G": "minecraft:golden_pickaxe",
+    "S": "diamond_enhancements:stardust",
+    "D": "diamond_enhancements:diamond_totem",
+    "I": "#minecraft:beacon_payment"
+  },
+  "result": {
+    "id": "diamond_enhancements:haste_totem",
+    "count": 1
+  }
+}

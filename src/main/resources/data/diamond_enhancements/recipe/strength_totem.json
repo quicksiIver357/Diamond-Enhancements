@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "SDS",
+    "III"
+  ],
+  "key": {
+    "B": "minecraft:blaze_powder",
+    "S": "diamond_enhancements:stardust",
+    "D": "diamond_enhancements:diamond_totem",
+    "I": "#minecraft:beacon_payment"
+  },
+  "result": {
+    "id": "diamond_enhancements:strength_totem",
+    "count": 1
+  }
+}
