@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "minecraft:diamond"
+  },
+  "result": {
+    "id": "diamond_enhancements:diamond_sheet"
+  }
+}

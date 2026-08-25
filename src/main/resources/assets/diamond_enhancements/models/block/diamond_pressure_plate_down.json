@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_down",
+  "textures": {
+    "texture": "diamond_enhancements:block/diamond_pressure_plate"
+  }
+}

@@ -24,6 +24,7 @@ public class DiamondEnhancements implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 
 		ModItems.initialize();
+		ModBlocks.initialize();
 	}
 
 	public static Identifier id(String path) {

@@ -10,6 +10,7 @@ public class ModItemIds {
     public static final ResourceKey<Item> STARDUST = create("stardust");
     public static final ResourceKey<Item> DIAMOND_BUNDLE = create("diamond_bundle");
     public static final ResourceKey<Item> DIAMOND_APPLE = create("diamond_apple");
+    public static final ResourceKey<Item> DIAMOND_SHEET = create("diamond_sheet");
 
 
     public static ResourceKey<Item> create(String name) {

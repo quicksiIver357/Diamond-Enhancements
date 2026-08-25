@@ -25,14 +25,6 @@ public class ClientDiamondBundleTooltip implements ClientTooltipComponent {
 	private static final Identifier SLOT_HIGHLIGHT_BACK_SPRITE = Identifier.withDefaultNamespace("container/bundle/slot_highlight_back");
 	private static final Identifier SLOT_HIGHLIGHT_FRONT_SPRITE = Identifier.withDefaultNamespace("container/bundle/slot_highlight_front");
 	private static final Identifier SLOT_BACKGROUND_SPRITE = Identifier.withDefaultNamespace("container/bundle/slot_background");
-	private static final int SLOT_MARGIN = 4;
-	private static final int SLOT_SIZE = 24;
-	private static final int GRID_WIDTH = 96;
-	private static final int PROGRESSBAR_HEIGHT = 13;
-	private static final int PROGRESSBAR_WIDTH = 96;
-	private static final int PROGRESSBAR_BORDER = 1;
-	private static final int PROGRESSBAR_FILL_MAX = 94;
-	private static final int PROGRESSBAR_MARGIN_Y = 4;
 	private static final Component BUNDLE_FULL_TEXT = Component.translatable("item.minecraft.bundle.full");
 	private static final Component BUNDLE_EMPTY_TEXT = Component.translatable("item.minecraft.bundle.empty");
 	private static final Component BUNDLE_EMPTY_DESCRIPTION = Component.translatable("item.minecraft.bundle.empty.description");

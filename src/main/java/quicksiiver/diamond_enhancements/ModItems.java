@@ -39,6 +39,7 @@ public class ModItems {
     public static final Item STARDUST = register(ModItemIds.STARDUST, Item::new, new Item.Properties());
     public static final Item DIAMOND_BUNDLE = register(ModItemIds.DIAMOND_BUNDLE, DiamondBundle::new, new Item.Properties().component(DataComponents.BUNDLE_CONTENTS, BundleContents.EMPTY));
     public static final Item DIAMOND_APPLE = register(ModItemIds.DIAMOND_APPLE, Item::new, new Item.Properties().food(DIAMOND_APPLE_FOOD_COMPONENT, DIAMOND_APPLE_CONSUMABLE_COMPONENT));
+    public static final Item DIAMOND_SHEET = register(ModItemIds.DIAMOND_SHEET, Item::new, new Item.Properties());
 
     // register function, used to create a new item
 	public static Item register(ResourceKey<Item> itemKey, Function<Item.Properties, Item> itemFactory, Item.Properties settings) {
@@ -66,5 +67,6 @@ public class ModItems {
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register((creativeTab) -> creativeTab.insertAfter(Items.NETHER_STAR, ModItems.STARDUST));
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register((creativeTab) -> creativeTab.insertAfter(Items.BUNDLE, ModItems.DIAMOND_BUNDLE));
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FOOD_AND_DRINKS).register((creativeTab) -> creativeTab.insertAfter(Items.GOLDEN_APPLE, ModItems.DIAMOND_APPLE));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register((creativeTab) -> creativeTab.insertAfter(Items.DIAMOND, ModItems.DIAMOND_SHEET));
     }
 }
