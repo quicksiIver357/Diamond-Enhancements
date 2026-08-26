@@ -9,5 +9,6 @@
     "item.diamond_enhancements.jump_boost_totem": "Jump Boost Totem",
     "item.diamond_enhancements.resistance_totem": "Resistance Totem",
     "item.diamond_enhancements.speed_totem": "Speed Totem",
-    "item.diamond_enhancements.strength_totem": "Strength Totem"
+    "item.diamond_enhancements.strength_totem": "Strength Totem",
+    "block.diamond_enhancements.reinforced_pot" : "Reinforced Pot"
 }

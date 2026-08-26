@@ -29,6 +29,7 @@ public class DiamondEnhancements implements ModInitializer {
 
 		ModItems.initialize();
 		ModBlocks.initialize();
+		ModBlockEntities.initialize();
 
 		// do stuff every server tick
 		ServerTickEvents.END_SERVER_TICK.register(server -> {

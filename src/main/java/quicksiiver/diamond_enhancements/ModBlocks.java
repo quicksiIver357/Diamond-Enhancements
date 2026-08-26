@@ -16,11 +16,14 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import quicksiiver.diamond_enhancements.block.DiamondPressurePlate;
+import quicksiiver.diamond_enhancements.block.ReinforcedPotBlock;
 
 public class ModBlocks {
     // register the blocks
     // public static final Block DIAMOND_PRESSURE_PLATE = register(ModBlockItemIds.DIAMOND_PRESSURE_PLATE, Block::new, BlockBehaviour.Properties.of().sound(SoundType.METAL));
     public static final Block DIAMOND_PRESSURE_PLATE = register(ModBlockItemIds.DIAMOND_PRESSURE_PLATE, properties -> new DiamondPressurePlate(BlockSetType.IRON, properties), BlockBehaviour.Properties.of().sound(SoundType.METAL));
+    public static final Block REINFORCED_POT = register(ModBlockItemIds.REINFORCED_POT, ReinforcedPotBlock::new, BlockBehaviour.Properties.of().sound(SoundType.DECORATED_POT));
+
 
     // register blocks with items
 	private static Block register(BlockItemId id, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties properties) {

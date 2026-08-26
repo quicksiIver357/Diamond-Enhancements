@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "diamond_enhancements:item/reinforced_pot",
+    "model": {
+      "type": "minecraft:decorated_pot"
+    }
+  }
+}
